@@ -58,12 +58,12 @@ export default ({settings}) => {
         <ScrollView>
             <View style={styles.container}>
                 <Image
-                    source={{uri: 'https://avatars.githubusercontent.com/u/43488869'}}
+                    source={{uri: 'https://avatars.githubusercontent.com/u/157327107?s=400&u=d136a1f726b764dadca53b240cff92e28836c952&v=4'}}
                     style={styles.image}
                 />
                 <View style={styles.title}>
-                    <Text style={styles.name}>TrackEdit</Text>
-                    <Text style={styles.author}>by mafu</Text>
+                    <Text style={styles.name}>themes</Text>
+                    <Text style={styles.author}>by darealyeeto</Text>
                 </View>
             </View>
             <FormSection title="INFORMATION">
@@ -73,11 +73,11 @@ export default ({settings}) => {
                     trailing={FormRow.Arrow}
                     leading={<FormRow.Icon source={TwitterIcon}/>}
                     onPress={() => {
-                        Linking.openURL("https://twitter.com/m4fn3")
+                        Linking.openURL("https://twitter.com/darealyeetoYT")
                     }}
                 />
                 <FormRow
-                    label="Visit my server for help"
+                    label="Join the Discord for new theme releases"
                     style={styles.info}
                     trailing={FormRow.Arrow}
                     leading={<FormRow.Icon source={DiscordIcon}/>}
@@ -90,12 +90,12 @@ export default ({settings}) => {
                     }}
                 />
                 <FormRow
-                    label="Check Source on GitHub"
+                    label="Subscribe to me on YouTube"
                     style={styles.info}
                     trailing={FormRow.Arrow}
-                    leading={<FormRow.Icon source={GitHubIcon}/>}
+                    leading={<FormRow.Icon source={YouTubeIcon}/>}
                     onPress={() => {
-                        Linking.openURL("https://github.com/m4fn3/TrackEdit")
+                        Linking.openURL("https://youtube.com/@darealyeeto")
                     }}
                 />
             </FormSection>
